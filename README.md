@@ -1,35 +1,24 @@
-# Vue.js
+# Quasar App (quasar-project)
 
-This directory is a brief example of a [Vue.js](https://vuejs.org/) app that can be deployed to Vercel with zero configuration.
+A Quasar Project
 
-## Deploy Your Own
-
-Deploy your own Vue.js project with Vercel.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/vue&template=vue)
-
-_Live Example: https://vue-template.vercel.app_
-
-## Running Locally
-
-```
-yarn install
+## Install the dependencies
+```bash
+yarn
+# or
+npm install
 ```
 
-#### Compile and hot-reload for development
-
-```
-yarn serve
-```
-
-#### Compile and minify for production
-
-```
-yarn build
+### Start the app in development mode (hot-code reloading, error reporting, etc.)
+```bash
+quasar dev
 ```
 
-#### Lint and fix files
 
+### Build the app for production
+```bash
+quasar build
 ```
-yarn lint
-```
+
+### Customize the configuration
+See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-webpack/quasar-config-js).
